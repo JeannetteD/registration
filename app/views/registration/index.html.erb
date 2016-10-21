@@ -1,0 +1,48 @@
+<h1>Registration</h1>
+<p>Welcome to our page</p>
+<p>Please register below in order to gain access to our website</p>
+
+<form action="/registration/register" method="POST">
+  <table>
+
+      <tr>
+        <td><label for="name_id">Full Name</label></td>
+        <td><input type="text" id="name_id" name="full_name"/></td>
+      </tr>
+
+      <tr>
+        <td><label for="street_address_id">Street Address</label></td>
+        <td><input type="text" id="street_address_id" name="street_address" size="50"/></td>
+      </tr>
+      <tr>
+        <td><label for="city_id">City</label></td>
+        <td><input type="text" id="city_id" name="city"/></td>
+      </tr>
+      <tr>
+        <td><label for="state_id">State</label></td>
+        <td><input type="text" id="state_id" name="state" size="2"/></td>
+      </tr>
+      <tr>
+        <td><label for="postal_code_id">Postal code</label></td>
+        <td><input type="text" id="postal_code_id" name="postal_code"/></td>
+      </tr>
+      <tr>
+        <td><label for="country_id">Country</label></td>
+        <td><input type="text" id="country_id" name="country"/></td>
+      </tr>
+      <tr>
+        <td><label for="email_address_id">Email address</label></td>
+        <td><input type="text" id="email_address_id" name="email_address" size="50"/></td>
+      </tr>
+      <tr>
+        <td><label for="user_id">User ID</label></td>
+        <td><input type="text" id="user_id" name="user_id" required/></td>
+      </tr>
+      <tr>
+        <td><label for="password_id">Password</label></td>
+        <td><input type="password" id="password_id" name="password" required/></td>
+      </tr>
+    </table>
+
+    <input type="submit" value="Submit"/>
+</form>
